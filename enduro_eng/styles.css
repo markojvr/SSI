@@ -1,0 +1,38 @@
+body{
+    background-color: black;
+}
+.logo{
+    width: 10%;
+}
+.logos-container{
+    margin-top: 70px;
+}
+.navbar{
+    background-color: red;
+}
+#home{
+    padding-left: 1%;
+    padding-top: 60px;
+    background-color: white;
+}
+#about-us{
+    color: white;
+    padding-left: 1%;
+}
+li{
+    font-size: 150%;
+}
+#home p{
+    font-size: 150%;
+}
+.home-heading{
+    font-size: 300%;
+}
+.top{
+    margin-top: 8%;
+}
+@media(max-width: 1000px){
+    .logo{
+        width: 19%;
+    }
+}
