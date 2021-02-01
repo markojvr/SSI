@@ -1,0 +1,176 @@
+/* Navigation Bar */
+
+.navbar{
+    padding: 2% 10% 3% 10%;
+    background-color: white;
+}
+
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+}
+.nav-item {
+    padding: 0 18px;
+}
+.nav-link {
+    font-size:1.2rem;
+}
+
+.ssi-logo {
+    width: 250px;
+}
+
+/* .EE-backgroundimg {
+    width: 100%;
+} 
+
+Container holding the image and the text
+.container {
+    position: relative;
+    text-align: center;
+    color: black;
+  }
+
+.EE-welcome {
+    position: absolute;
+    padding: 1% 27% 0 10%;
+    margin-bottom: 100px;
+} */
+
+
+/* Container fluid */
+
+
+.container-fluid {
+    padding: 1% 27% 0 10%;
+    margin-bottom: 100px;}
+
+
+
+
+/* Footer Navbar */
+
+.footernavbar {
+  background-color: white;
+  text-align: center;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 0.5;
+}
+
+/* Products */
+
+#products {
+    text-align: center;
+    padding: 1% 15% 100px 15%;
+}
+.product-dealer {
+    width: 100%;
+    background-color: red;
+    padding: 10px;
+    margin: 20px;
+    font-size: 20px;
+}
+.product-img {
+    max-width: 220px;
+    max-height: 220px;
+}
+h3{
+    font-size: 18px;
+}
+.card-header{
+    padding-bottom: 0;
+}
+
+.card {
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+}
+
+
+/* About Us */
+
+.profile { 
+    line-height: 2;
+}
+
+.history {
+    line-height: 2;
+}
+
+
+/* Dealers */
+
+.dealer-name{
+    width: 500px;
+}
+.dealer-number {
+    width: 250px;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.dealer-address {
+    width: 600px;
+}
+
+.province {
+    font-style: bold;
+    font-size: 30px;
+    padding: 4% 2% 2% 2%;
+    
+}
+
+.dealers {
+    width: 150px
+}
+
+
+/* Elmer */
+
+.message-container{
+    top: 15%;
+    background-color: #7834bc;
+    height: 70%;
+    z-index: 2;
+    padding: 1%;
+    position: fixed;
+    left: 0;
+}
+.hidden{
+    display: none;
+}
+.overlay{
+    opacity: 0.6;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.fa-times-circle{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+}
+
+
+/* Contact Us */
+
+td {
+    padding-top: .5em;
+    padding-bottom: .5em;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.info {
+    padding-left: 20%;
+}
